@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>password generator</h2>
+      <div class="g-pass">
+        <span class="show-pass">50</span>
+        <button class="btn-clipboard">&#x1F4C4;</button>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <label for="length">password length</label>
+          <input
+            type="number"
+            id="length"
+            min="8"
+            max="50"
+            value="12"
+            step="1"
+          />
+        </div>
+        <div class="setting">
+          <label for="uppercase">include uppercase letter</label>
+          <input type="checkbox" id="uppercase" checked />
+        </div>
+        <div class="setting">
+          <label for="lowercase">include lowercase letter</label>
+          <input type="checkbox" id="lowercase" checked />
+        </div>
+        <div class="setting">
+          <label for="digit">include digits </label>
+          <input type="checkbox" id="digit" checked />
+        </div>
+        <div class="setting">
+          <label for="symbol">include symbols</label>
+          <input type="checkbox" id="symbol" checked />
+        </div>
+      </div>
+      <button class="generate-btn">Generate password</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
