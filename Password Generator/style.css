@@ -67,13 +67,10 @@ body {
   width: 30px;
   height: 50px;
   background-color: transparent;
+  color: seagreen;
   border: 0;
   font-size: 1.3rem;
   cursor: pointer;
-}
-
-.g-pass .btn-clipboard:active {
-  transform: scale(0.9);
 }
 
 input[type="number"] {
